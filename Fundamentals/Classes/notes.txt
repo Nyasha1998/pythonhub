@@ -1,0 +1,11 @@
+__init__() is a special method which python runs automatically
+whenever we create a new instance based on the class.
+
+This method has two leading underscores and two trailing 
+underscores, a convention that helps prevent Python's default
+method names from conflicting with your method names. 
+
+Think of a class as a set of instructions for how to make 
+an instance.
+
+Dot notation is used often in Python.
