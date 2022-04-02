@@ -1,0 +1,4 @@
+I love coding.
+I love making models.
+I also love finding meaning in large datasets.
+I love creating flexible web applications with cool tools such as ReactJS.

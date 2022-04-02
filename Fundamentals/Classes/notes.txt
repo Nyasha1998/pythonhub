@@ -9,3 +9,6 @@ Think of a class as a set of instructions for how to make
 an instance.
 
 Dot notation is used often in Python.
+
+The super() function method is a special function that helps 
+Python make connections between the parent and child class.

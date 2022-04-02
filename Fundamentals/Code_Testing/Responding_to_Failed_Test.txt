@@ -1,0 +1,4 @@
+When a test fails, don't change the test.
+Instead fix the code that caused the test to fail.
+Examine the changes you just made to the function, and 
+figure out how those changes broke the desired behavior.

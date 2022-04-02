@@ -1,0 +1,9 @@
+https://api.github.com/search/repositories?q=language:python&sort=stars
+
+specifying a query (q=)
+
+The request package allows a python program to easily
+request information from a website and examine the 
+response that's returned.
+
+pip install --user requests

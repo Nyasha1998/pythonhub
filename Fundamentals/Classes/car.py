@@ -17,21 +17,16 @@ class Car():
         print("This car has " + str(self.adometer_reading) + " miles on it.")
         
     def update_adometer(self, mileage):
-        """Set the adometer reading to the given value."""
-        self.adometer_reading = mileage
+        """
+        Set the adometer reading to the given value.
+        Reject the change if it attempts to roll the adometer back. 
+        """
+        if mileage >= self.adometer_reading:
+            self.adometer_reading = mileage
+        else:
+            print("You can't roll back an adometer!")
         
     def increment_adometer(self, miles):
         """Add the given amount to the adometer reading."""
         self.adometer_reading += miles
         
-my_used_car = Car('subaru', 'outback', 2013)
-print(my_used_car.get_descriptive_name())
-
-my_used_car.update_adometer(23500)
-my_used_car.read_adometer()
-my_used_car.increment_adometer(100)
-my_used_car.read_adometer
-    
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_descriptive_name())
-my_new_car.read_adometer()
